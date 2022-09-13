@@ -1,0 +1,56 @@
+
+ .container {max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+ }
+
+
+.contain{
+    background-image: linear-gradient(to right top, #051937, #0a1b3b, #111c3f, #171e43, #1d1f47);
+    border-radius: 5px;
+}
+
+ .head {
+    color: white;
+    text-align: center;
+ }
+.time {
+    color: white;
+    text-align: center;
+    border: 1px solid;
+    padding: 4rem;
+    background-color: #030324;
+    box-shadow: 1px 5px 10px;
+    border-radius: 10px;
+    animation: text-changer 8s infinite 2s;
+
+}
+@keyframes text-changer {
+    0% {
+        content:"WEBSITES" ;
+        color:  white;
+    }
+     25% {
+        content:"MOBILE APPS" ;
+        color:#F9AE59 ;
+    }
+     50% {
+        content:"SOFTWARES" ;
+        color:  mediumaquamarine;
+    }
+     75% {
+        content:"WEB APPS" ;
+        color: #F9F871;
+        
+    }
+     100% {
+        content:"ICT" ;
+        color: #7789F3 ;
+    }
+    
+}
